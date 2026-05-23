@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spam Classifier</title>
+  <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="header">
+        <div class="icon">📧</div>
+        <h1>Spam Classifier</h1>
+        <p>Paste any message below to instantly detect whether it's spam or not.</p>
+      </div>
+ 
+      <div class="form-group">
+        <label for="messageInput">Message</label>
+        <textarea
+          id="messageInput"
+          placeholder="Type or paste your message here..."
+          rows="5"
+        ></textarea>
+      </div>
+ 
+      <button id="analyzeBtn" onclick="analyze()">
+        <span id="btnText">Analyze Message</span>
+        <span id="btnLoader" class="hidden">Analyzing...</span>
+      </button>
+ 
+      <div id="result" class="result hidden">
+        <div id="resultBadge" class="badge"></div>
+        <div class="result-details">
+          <div class="result-label" id="resultLabel"></div>
+          <div class="confidence-bar-wrap">
+            <div class="confidence-bar">
+              <div id="confidenceFill" class="confidence-fill"></div>
+            </div>
+            <span id="confidenceText" class="confidence-text"></span>
+          </div>
+        </div>
+      </div>
+ 
+      <div id="error" class="error hidden"></div>
+    </div>
+  </div>
+ 
+  <script src="/static/script.js"></script>
+</body>
+</html>

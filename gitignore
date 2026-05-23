@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+
+# Data (large files — keep out of git)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
