@@ -6,7 +6,7 @@ A machine learning web app that detects whether a message is **spam or legitimat
 
 ## 🚀 Live Demo
 
-> Deployed on Render: [_your-link-here.onrender.com_](http://127.0.0.1:8000/)
+> Deployed on Render:" In Progress"
 
 ---
 
