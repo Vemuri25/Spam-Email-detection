@@ -4,12 +4,6 @@ A machine learning web app that detects whether a message is **spam or legitimat
 
 ---
 
-## 🚀 Live Demo
-
-> Deployed on Render:" In Progress"
-
----
-
 ## 🧠 How It Works
 
 1. User pastes a message into the web UI
